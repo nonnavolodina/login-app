@@ -1,0 +1,12 @@
+button {
+    background: unset;
+    border: unset;
+    font-family: $font;
+    cursor: pointer;
+    color: $black;
+    margin: 10px 0;
+
+    &:hover {
+        color: $border;
+    }
+}
