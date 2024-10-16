@@ -5,6 +5,11 @@ button {
     cursor: pointer;
     color: $black;
     margin: 10px 0;
+    padding: 0;
+
+    &:last-child {
+        margin: 0px 0px 10px 0;
+    }
 
     &:hover {
         color: $border;

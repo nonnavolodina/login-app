@@ -12,6 +12,7 @@ body {
         box-shadow: 0 4px 32px -14px rgba(64,87,109,.3);
         position: relative;
         overflow: hidden;
+        border-radius: 15px;
 
         &:after {
             @include pseudo;

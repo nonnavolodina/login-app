@@ -25,7 +25,7 @@ main {
 
         .input-label-group {
             display: flex;
-            margin: 50px 0;
+            margin: 30px 0;
         }
 
         input {
@@ -54,5 +54,18 @@ main {
             }
             
         }
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    .hidden {
+        visibility: hidden;
+        margin: 0;
     }
 }
